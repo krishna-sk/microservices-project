@@ -11,19 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class TestController {
 
-    @Value("${test.name}")
-    private String name;
-
     @Value("${my.app}")
     private String commonProperty;
-
-    @GetMapping("/name")
-    public String name() {
-        return name;
-    }
 
     @GetMapping("/commonProperty")
     public String commonProperty() {
         return commonProperty;
     }
+
 }
