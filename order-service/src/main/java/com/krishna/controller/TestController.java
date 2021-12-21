@@ -11,12 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class TestController {
 
-    @Value("${my.app}")
-    private String commonProperty;
+	@Value("${secret_key}")
+	private String secret_key;
 
-    @GetMapping("/commonProperty")
-    public String commonProperty() {
-        return commonProperty;
-    }
-
+  @GetMapping("/test")
+  public String propertyFromHashiCorpVault() {
+    return secret_key;
+  }
 }

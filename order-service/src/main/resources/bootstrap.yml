@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    vault:
+      kv:
+        enabled: true
+      scheme: http
+      authentication: TOKEN
+      token: s.F8sL1gPsEXvJxE55aY4hKvmW
