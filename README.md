@@ -2,6 +2,7 @@
 
 > source : [Programming Techie](https://youtube.com/playlist?list=PLSVW22jAG8pDY3lXXEv1hKVIAlnJ9nDN_)
 
+> central config server used : [Central Config Server](https://github.com/krishna-sk/central-config-server)
 ### Table of Contents
 
 - [Product Service Microservice](https://github.com/krishna-sk/online-shopping/tree/master/product-service)
